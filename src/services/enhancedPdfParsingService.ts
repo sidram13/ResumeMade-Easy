@@ -5,7 +5,7 @@ import { GoogleGenerativeAI } from '@google/generative-ai';
 // Configure PDF.js worker
 pdfjsLib.GlobalWorkerOptions.workerSrc = `//cdnjs.cloudflare.com/ajax/libs/pdf.js/3.11.174/pdf.worker.min.js`;
 
-const API_KEY = import.meta.env.VITE_GEMINI_API_KEY || 'AIzaSyCGNfzPnoylWkWtWeDgpdr6noXJ0BJgiww';
+const API_KEY = import.meta.env.VITE_GEMINI_API_KEY || 'AIzaSyBxfjpsnuxMMNfpy_NQdZsgjFGq_SwoQuw';
 const genAI = new GoogleGenerativeAI(API_KEY);
 
 export const enhancedPdfParsingService = {

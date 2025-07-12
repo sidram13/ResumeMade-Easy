@@ -16,7 +16,8 @@ export const APIKeySetup: React.FC<APIKeySetupProps> = ({ onComplete }) => {
     const existingKey = import.meta.env.VITE_GEMINI_API_KEY;
     if (
       existingKey &&
-      existingKey !== 'AIzaSyCGNfzPnoylWkWtWeDgpdr6noXJ0BJgiww'
+      existingKey !== 'AIzaSyBxfjpsnuxMMNfpy_NQdZsgjFGq_SwoQuw' &&
+      existingKey.length > 20
     ) {
       setIsValid(true);
       onComplete();

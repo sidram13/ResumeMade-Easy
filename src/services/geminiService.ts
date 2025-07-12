@@ -3,7 +3,7 @@ import { GoogleGenerativeAI } from '@google/generative-ai';
 import { ResumeData, AIEnhancedContent } from '../types/resume';
 
 // Get API key from environment or fallback
-const API_KEY = import.meta.env.VITE_GEMINI_API_KEY || 'AIzaSyCGNfzPnoylWkWtWeDgpdr6noXJ0BJgiww';
+const API_KEY = import.meta.env.VITE_GEMINI_API_KEY || 'AIzaSyBxfjpsnuxMMNfpy_NQdZsgjFGq_SwoQuw';
 
 if (!API_KEY) {
   console.warn('Gemini API key not found');
