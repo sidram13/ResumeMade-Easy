@@ -1,3 +1,4 @@
+// src\services\geminiService.ts
 import { GoogleGenerativeAI } from '@google/generative-ai';
 import { ResumeData, AIEnhancedContent } from '../types/resume';
 
