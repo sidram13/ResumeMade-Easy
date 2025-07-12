@@ -364,7 +364,11 @@ export const ReviewForm: React.FC = () => {
         </div>
       )}
 
-      {activeTab === 'templates' && <TemplateSelector />}
+      {activeTab === 'templates' && (
+        <div className="space-y-8">
+          <TemplateSelector />
+        </div>
+      )}
       {activeTab === 'ats' && <ATSScoreCard />}
     </div>
   );
